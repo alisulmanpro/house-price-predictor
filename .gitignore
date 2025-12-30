@@ -1,0 +1,62 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+### PyCharm (JetBrains) ###
+.idea/
+*.iml
+*.iws
+
+### Streamlit & Data Science ###
+# Streamlit credentials and config
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# Large Model Files (Prevent pushing heavy binary files)
+*.joblib
+*.pkl
+*.pth
+*.h5
+
+# Datasets
+*.csv
+*.xlsx
+*.json
+
+# Logs
+*.log
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
