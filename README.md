@@ -3,14 +3,10 @@
 
 **Machine Learning project to predict house prices using real-world data from King County, USA.**
 
----
-
 ## **Project Overview**
 
 This project predicts the **price of a house** based on features like bedrooms, bathrooms, living area, floors, and construction grade.  
 It uses **Linear Regression and XGBoost models** to provide accurate price estimates.  
-
----
 
 ## **Dataset**
 
@@ -25,8 +21,6 @@ It uses **Linear Regression and XGBoost models** to provide accurate price estim
 - Target variable:
   - `price` — Price of the house in USD  
 
----
-
 ## **Tools & Libraries**
 
 - Python  
@@ -34,8 +28,6 @@ It uses **Linear Regression and XGBoost models** to provide accurate price estim
 - scikit-learn (Linear Regression, Random Forest)  
 - XGBoost  
 - Streamlit (for web app)  
-
----
 
 ## **How it Works**
 
@@ -47,10 +39,8 @@ It uses **Linear Regression and XGBoost models** to provide accurate price estim
    - **MAE (Mean Absolute Error)**
    - **RMSE (Root Mean Squared Error)**
    - **R² Score**
-6. Deploy interactive Streamlit web app for user input.  
-
----
-
+6. Deploy interactive Streamlit web app for user input.
+   
 ## **Model Performance**
 
 | Model                | MAE ($)   | RMSE ($)   | R² Score |
@@ -60,8 +50,6 @@ It uses **Linear Regression and XGBoost models** to provide accurate price estim
 | XGBoost             | 155,078   | 272,058   | 0.51     |
 
 **Observation:** Linear Regression performs best for normal houses; XGBoost has lowest MAE, showing good accuracy for average-priced houses.
-
----
 
 ## **Suggested Images for README**
 
@@ -78,8 +66,6 @@ It uses **Linear Regression and XGBoost models** to provide accurate price estim
    - Shows input form and predicted price popup  
 
 > *You can use your uploaded screenshot (the one you just sent) as the Streamlit app image.*
-
----
 
 ## **How to Run the Project**
 
