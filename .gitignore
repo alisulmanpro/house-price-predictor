@@ -44,7 +44,6 @@ ENV/
 .streamlit/credentials.toml
 
 # Large Model Files (Prevent pushing heavy binary files)
-*.joblib
 *.pkl
 *.pth
 *.h5
